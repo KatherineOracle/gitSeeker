@@ -4,7 +4,7 @@
   "description": "An App to find users and their public repositories on github and gitlabs ",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon@latest index.js",
+    "start": "concurrently \"npx nodemon@latest index.js\" \"cd client && npm start\"",
     "test": "mocha"
   },
   "author": "Katherine Van As",
