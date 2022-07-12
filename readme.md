@@ -26,13 +26,9 @@ You’re React UI end should be running on port 3000
 Happy GitSeeking!
 
 # Screenshots
-![Graphical user interface
+![Graphical user interface](/KatherineOracle/gitSeeker/blob/main/screenshot-1.png?raw=true)
 
-Description automatically generated](./screenshot-1.png)
-
-![Graphical user interface, text, application
-
-Description automatically generated](./screenshot-2.png)
+![Graphical user interface, text, application](/KatherineOracle/gitSeeker/blob/main/screenshot-2.png?raw=true)
 
 
 
