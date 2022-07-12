@@ -1,0 +1,51 @@
+.user h1 span {
+  font-size: 1rem;
+}
+.user .rounded-circle {
+  background-color: #61dafb;
+}
+
+.user dl {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0;
+  position: relative;
+}
+
+.user dl:before {
+  content: "";
+  position: absolute;
+  left: calc(140px);
+  height: 100%;
+  border-left: 2px solid #61dafb;
+}
+
+.user dl dt {
+  flex-basis: 140px;
+  padding: 0.5rem;
+  text-align: right;
+}
+.user dl dd {
+  flex-basis: calc(100% - 140px - 2rem);
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.user h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.user h2 small{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.user h5 {
+  font-weight: 700;
+}
+.user h5 small {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.user h6{
+    font-weight: 600; 
+}

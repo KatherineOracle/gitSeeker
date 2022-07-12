@@ -1,0 +1,31 @@
+.App-header {
+  background-color: #282c34;
+  padding: 0.5rem 0; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-logo{
+  width: 70px;
+}
+/*set main content area to take up just the right height
+to push the footer down to the window edge 
+*/
+main {
+  padding: 4rem 1em;
+  min-height: calc(100vh - 18rem);
+}
+
+footer {
+  background-color: #ebebeb;
+  padding: 2rem;
+  text-align: center;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
