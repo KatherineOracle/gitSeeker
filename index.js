@@ -25,7 +25,7 @@ app.use("/api", routes);
 if (process.env.NODE_ENV === 'production'){
   app.use(express.static(path.join(__dirname, 'client/build')));
   app.get('*',(req,res)=> {
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested, Content-Type, Accept Authorization");
     res.setHeader('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; img-src 'self' https://avatars.githubusercontent.com https://secure.gravatar.com;");
     res.sendFile(path.resolve(__dirname, 'client', 'build','index.html'));
   });
