@@ -15,18 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 // defining the Express app
 const app = express();
-
-app.use(
-  helmet({
-    contentSecurityPolicy: {
-      directives: {
-        ...helmet.contentSecurityPolicy.getDefaultDirectives(),
-        "img-src": ["'self'", "avatars.githubusercontent.com", "secure.gravatar.com"],
-      },
-    },
-  })
-);
-
+app.use(helmet());
 app.use(express.json());
 app.use(cors());
 app.use("/api", routes);
@@ -37,7 +26,7 @@ if (process.env.NODE_ENV === 'production'){
   'client', 'build','index.html'));
   });
   }    
-
+  
 
 /* start up the API server on port 5000!*/
 app.listen(PORT, () => {
