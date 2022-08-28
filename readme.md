@@ -8,6 +8,8 @@ I’ve just completed my GitSeeker app as part of my studies at HyperionDev!
 - A GitLab account à <https://gitlab.com/users/sign_in/>
 - A GitLab Bearer token à <https://gitlab.com/-/profile/personal_access_tokens> 
 
+# Live demo
+https://thegitseeker.herokuapp.com/
 
 # Installation
 
