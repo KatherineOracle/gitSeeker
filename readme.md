@@ -17,7 +17,7 @@ Add your personal deets (from step above) to the .env file
 
 Run *npm install* in the root folder and in the client folder
 
-From the root folder run *npm start*
+From the root folder run *npm start:dev*
 
 Your express server should be running on port 8080
 

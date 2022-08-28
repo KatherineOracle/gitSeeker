@@ -26,8 +26,7 @@ const User = ({ user, setUser }) => {
     const [error, setError] = useState(null);
   
     useEffect(() => {
-  
-    console.log("we need to do something");
+
     if(user.id === id && user.platform === platform && user.data !== '') return; 
 
       setLoading(true);
