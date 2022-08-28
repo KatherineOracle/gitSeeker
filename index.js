@@ -12,13 +12,12 @@ const helmet = require("helmet");
 
 const allowlist = ['https://avatars.githubusercontent.com', 'https://secure.gravatar.com/'];
 
-    const corsOptionsDelegate = (req, callback) => {
+  const corsOptionsDelegate = (req, callback) => {
     let corsOptions;
 
     let isDomainAllowed = whitelist.indexOf(req.header('Origin')) !== -1;
 
-
-    if (isDomainAllowed && isExtensionAllowed) {
+    if (isDomainAllowed) {
         // Enable CORS for this request
         corsOptions = { origin: true }
     } else {
